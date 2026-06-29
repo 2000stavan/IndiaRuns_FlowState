@@ -1,0 +1,51 @@
+candidate_id,rank,score,reasoning
+CAND_0000031,1,0.99,"6.0y exp as Recommendation Systems Engineer; hands-on: MLflow, FAISS, Pinecone; product co (Swiggy); based in Hyderabad; active GitHub (32); actively applying; verified MLflow (75/100); strong availability signals."
+CAND_0000007,2,0.9491,5.5y exp as Civil Engineer; product co (Initech); based in Gurgaon. Note: not open to work.
+CAND_0000045,3,0.8892,12.2y exp as Project Manager; product co (Pied Piper); based in Indore. Note: low interview completion (33%).
+CAND_0000016,4,0.8314,5.3y exp as Accountant; based in Gurgaon; active GitHub (42); actively applying. Note: inactive 186d.
+CAND_0000014,5,0.7986,"8.4y exp as Frontend Engineer; hands-on: FAISS, OpenSearch; product co (Zomato); based in Hyderabad; verified FAISS (78/100). Note: 90-day notice."
+CAND_0000019,6,0.7615,6.5y exp as Project Manager; based in Trivandrum; actively applying. Note: not open to work.
+CAND_0000011,7,0.7584,"2.0y exp as QA Engineer; hands-on: Recommendation Systems, Hugging Face Transformers; product co (Pied Piper); based in Hyderabad; active GitHub (32). Note: inactive 157d."
+CAND_0000050,8,0.758,13.5y exp as Business Analyst; based in Gurgaon; active GitHub (44); actively applying. Note: inactive 246d.
+CAND_0000021,9,0.7566,"14.5y exp as Project Manager; hands-on: Recommendation Systems, Pinecone, Embeddings; based in Bhubaneswar; actively applying. Note: inactive 216d."
+CAND_0000039,10,0.7407,3.9y exp as Marketing Manager; product co (Stark Industries); based in Bhubaneswar. Note: not open to work.
+CAND_0000020,11,0.7405,"6.3y exp as Mechanical Engineer; hands-on: Weights & Biases; product co (Dunder Mifflin); based in Ahmedabad; actively applying. Concerns: inactive 263d, not open to work."
+CAND_0000023,12,0.7394,"3.7y exp as Software Engineer; product co (Acme Corp); based in New York; active GitHub (48); actively applying. Concerns: not open to work, in USA, not relocating."
+CAND_0000029,13,0.7335,"7.2y exp as Business Analyst; product co (Globex Inc); based in Noida; active GitHub (42); actively applying. Concerns: inactive 269d, low response rate (12%)."
+CAND_0000041,14,0.73,"13.7y exp as Operations Manager; product co (Dunder Mifflin); based in Delhi; actively applying. Concerns: inactive 101d, low response rate (7%)."
+CAND_0000034,15,0.7226,"14.5y exp as Business Analyst; product co (Hooli); based in Ahmedabad; actively applying. Concerns: inactive 173d, low response rate (15%)."
+CAND_0000017,16,0.6988,"12.3y exp as Accountant; product co (Initech); based in Bangalore; actively applying. Concerns: inactive 233d, 90-day notice."
+CAND_0000026,17,0.6939,"6.8y exp as Graphic Designer; based in Kochi; actively applying. Concerns: inactive 265d, not open to work."
+CAND_0000025,18,0.6873,7.3y exp as Frontend Engineer; product co (Zomato); based in Vizag; actively applying. Concerns: 120-day notice.
+CAND_0000001,19,0.6845,"6.9y exp as Backend Engineer; hands-on: NLP, Fine-tuning LLMs, Weights & Biases; product co (Dunder Mifflin); based in Toronto; actively applying. Concerns: in Canada, not relocating."
+CAND_0000048,20,0.6822,"9.7y exp as Mobile Developer; product co (CRED); based in Hyderabad; actively applying. Concerns: 120-day notice, low interview completion (42%)."
+CAND_0000032,21,0.6732,"8.1y exp as .NET Developer; hands-on: Embeddings, Python; product co (Globex Inc); based in Gurgaon; actively applying. Concerns: inactive 178d, 150-day notice."
+CAND_0000015,22,0.6668,"5.4y exp as Software Engineer; hands-on: PyTorch, Weights & Biases, Qdrant; product co (Razorpay); based in Trivandrum; actively applying. Concerns: inactive 133d, 90-day notice."
+CAND_0000002,23,0.6592,12.5y exp as Operations Manager; based in Chennai. Concerns: inactive 225d.
+CAND_0000046,24,0.6407,"7.8y exp as Mechanical Engineer; product co (Hooli); based in London; actively applying. Concerns: inactive 125d, not open to work."
+CAND_0000038,25,0.6352,"6.7y exp as Java Developer; hands-on: Weaviate, MLOps; product co (Swiggy); based in Coimbatore; active GitHub (37); actively applying. Concerns: low response rate (20%), 90-day notice."
+CAND_0000037,26,0.6326,"14.3y exp as Business Analyst; product co (Initech); based in Dubai; actively applying. Concerns: inactive 196d, not open to work."
+CAND_0000033,27,0.6213,"8.6y exp as Graphic Designer; based in Pune; active GitHub (38); actively applying. Concerns: low response rate (8%), low interview completion (37%)."
+CAND_0000024,28,0.6197,"7.5y exp as HR Manager; based in Trivandrum; active GitHub (46); actively applying. Concerns: inactive 156d, not open to work."
+CAND_0000036,29,0.6155,11.3y exp as Project Manager; based in Trivandrum; actively applying. Concerns: inactive 195d.
+CAND_0000004,30,0.6142,"3.8y exp as Marketing Manager; based in Sydney; actively applying. Concerns: inactive 92d, 120-day notice."
+CAND_0000022,31,0.6024,"1.1y exp as Mechanical Engineer; product co (Hooli); based in Sydney; actively applying. Concerns: 150-day notice, low interview completion (45%), in Australia, not relocating."
+CAND_0000006,32,0.6009,"6.0y exp as Business Analyst; product co (Pied Piper); based in Austin; actively applying. Concerns: inactive 117d, low response rate (12%), 150-day notice."
+CAND_0000049,33,0.5974,"11.8y exp as Mechanical Engineer; product co (Wayne Enterprises); based in Berlin; actively applying. Concerns: 120-day notice, not open to work, in Germany, not relocating."
+CAND_0000042,34,0.5972,"5.0y exp as HR Manager; based in Berlin; actively applying. Concerns: inactive 245d, not open to work, low interview completion (35%)."
+CAND_0000043,35,0.5955,"8.3y exp as Cloud Engineer; hands-on: Elasticsearch, OpenSearch, Fine-tuning LLMs; product co (Swiggy); based in Chandigarh; actively applying. Concerns: inactive 175d, low response rate (4%), 120-day notice."
+CAND_0000013,36,0.5878,"1.1y exp as Civil Engineer; product co (Globex Inc); based in Dubai; active GitHub (35); actively applying. Concerns: inactive 91d, low interview completion (33%), in UAE, not relocating."
+CAND_0000009,37,0.584,"11.0y exp as Mechanical Engineer; product co (Dunder Mifflin); based in New York; actively applying. Concerns: inactive 149d, 150-day notice, not open to work."
+CAND_0000044,38,0.5825,"5.7y exp as Frontend Engineer; hands-on: Python; product co (Hooli); based in Indore; actively applying. Concerns: inactive 196d, 90-day notice, not open to work."
+CAND_0000030,39,0.5818,"10.0y exp as Marketing Manager; based in Kochi. Concerns: inactive 241d, not open to work."
+CAND_0000010,40,0.5737,"4.6y exp as Data Engineer; hands-on: Elasticsearch, MLOps, Python; product co (Ola); based in London; active GitHub (33); actively applying. Concerns: 120-day notice, not open to work, in UK, not relocating."
+CAND_0000018,41,0.5684,"6.6y exp as Frontend Engineer; product co (Acme Corp); based in Bhubaneswar; actively applying. Concerns: inactive 127d, low response rate (16%), 120-day notice."
+CAND_0000005,42,0.5609,11.0y exp as Accountant; based in Gurgaon; actively applying. Concerns: inactive 267d.
+CAND_0000027,43,0.5493,"3.9y exp as DevOps Engineer; hands-on: PEFT, Information Retrieval, Weights & Biases; based in Kolkata; active GitHub (38); actively applying. Concerns: 90-day notice, entire career in IT services, incomplete profile (31%)."
+CAND_0000035,44,0.5327,"4.3y exp as Full Stack Developer; hands-on: Recommendation Systems; product co (Globex Inc); based in Hyderabad; actively applying. Concerns: inactive 139d, not open to work."
+CAND_0000040,45,0.446,"1.6y exp as Customer Support; hands-on: Weights & Biases; based in Kochi; actively applying. Concerns: inactive 145d, 90-day notice, not open to work."
+CAND_0000047,46,0.4341,"2.4y exp as Project Manager; based in Kochi; actively applying. Concerns: inactive 95d, 90-day notice, not open to work."
+CAND_0000008,47,0.428,"3.6y exp as Operations Manager; based in Noida; actively applying. Concerns: inactive 194d, 90-day notice, not open to work."
+CAND_0000028,48,0.4143,"1.1y exp as Operations Manager; based in Dubai; actively applying. Concerns: low response rate (14%), not open to work, entire career in IT services."
+CAND_0000012,49,0.4082,"1.1y exp as Operations Manager; based in Chandigarh. Concerns: inactive 240d, low response rate (16%), not open to work."
+CAND_0000003,50,0.4,"1.1y exp as Customer Support; based in Austin; actively applying. Concerns: inactive 96d, 150-day notice, not open to work."

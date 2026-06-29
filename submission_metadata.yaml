@@ -1,0 +1,81 @@
+# Redrob Hackathon — Submission Metadata
+# Fill in team details before submitting.
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "FlowState"
+
+primary_contact:
+  name: "Stavan Desai"
+  email: "stavan.desai24@spit.ac.in"
+  phone: "+91-9372214733"
+
+team_members:
+  - name: "Stavan Desai"
+    email: "stavan.desai24@spit.ac.in"
+    role: "ML Engineer"
+  - name: "Yash Dharamshi"
+    email: "yash.desai24@spit.ac.in"
+    role: "ML Engineer"
+  - name: "Piyush Fatnani"
+    email: "fatnanip21@gmail.com"
+    role: "Data Engineer"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/2000stavan/IndiaRuns_FlowState"
+sandbox_link: "https://colab.research.google.com/drive/17tHY14PhrLjegmW1wzAQPQa6aMbpFxYx?usp=sharing"
+
+reproduce_command: "python rank.py --candidates ./data/candidates.jsonl --out ./output/team_FlowState.csv"
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "MacBook Pro"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11"
+  os: "macOS"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: true
+  pre_computation_time_minutes: 180  # ~3 hours for 100K candidates
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+ai_tools_used:
+  - "Gemini (Antigravity)"
+
+ai_usage_summary: |
+  Used Gemini (Antigravity IDE agent) for architecture discussion, code review,
+  and implementation assistance. No candidate data was fed to any external LLM API.
+  All ranking happens offline with local models (BGE, cross-encoder).
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  Two-stage hybrid pipeline: (1) Offline pre-computation embeds 100K candidate
+  career descriptions using BAAI/bge-small-en-v1.5 into a FAISS IndexFlatIP.
+  Five scoring components (semantic similarity 40%, career arc 25%, skill trust
+  15%, location 10%, YoE 10%) multiplied by a behavioral score produce a
+  composite fit score. (2) At rank time, FAISS retrieves top 3000, multi-signal
+  scoring selects top 200, and cross-encoder/ms-marco-MiniLM-L-6-v2 re-ranks
+  them. Final top 100 output with template-based reasoning from verified JSON
+  fields. Key design: embed career_history descriptions (not skills list) to
+  defeat keyword-stuffer traps; deterministic honeypot detection via date math;
+  behavioral multiplier separates active from ghost candidates.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
